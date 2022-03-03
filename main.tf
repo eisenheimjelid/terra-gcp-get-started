@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  #   credentials = file("<NAME>.json")
+  credentials = file("metal-voyager-178903-1394ae2346b0.json")
 
   project = "mystical-pod-103920"
   region  = "us-central1"
