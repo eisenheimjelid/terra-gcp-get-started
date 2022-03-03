@@ -1,14 +1,14 @@
 terraform {
   required_providers {
     google = {
-      source = "hashicorp/google"
+      source  = "hashicorp/google"
       version = "3.5.0"
     }
   }
 }
 
 provider "google" {
-#   credentials = file("<NAME>.json")
+  #   credentials = file("<NAME>.json")
 
   project = "mystical-pod-103920"
   region  = "us-central1"
